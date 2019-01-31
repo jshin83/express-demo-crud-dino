@@ -1,0 +1,21 @@
+{
+  "name": "crud_dinosaurs",
+  "version": "1.0.0",
+  "description": "express demo with CRUD to json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jshin83"
+  },
+  "author": "jen shin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0"
+  }
+}
