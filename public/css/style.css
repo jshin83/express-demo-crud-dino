@@ -1,0 +1,52 @@
+body {
+    font-family: "Lucida Console", "Times New Roman", Times, serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: square;
+
+}
+
+input[type=text] {
+    width: 250px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* unvisited link */
+a:link {
+  color: navy;
+}
+
+/* visited link */
+a:visited {
+  color: darkred;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
